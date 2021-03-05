@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+}
+
+.first-screen {
+  height: 100vh;
+  background-image: linear-gradient(#1daa7d, #005f55);
+}
+
+.logo-unimed {
+  background-image: url("../../assets/logo_unimed.png");
+  background-repeat: no-repeat;
+  height: 80px;
+  width: 255px;
+}
+
+.left-text {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 45px;
+  color: #fff;
+  line-height: 110%;
+  width: 324px;
+  height: fit-content;
+}
+
+.left-text-bottom {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  line-height: 140%;
+  width: 286px;
+  height: fit-content;
+}
+
+.first-screen-image {
+  background-image: url("../../assets/first-screen-image.png");
+  background-repeat: no-repeat;
+  height: 100%;
+}
