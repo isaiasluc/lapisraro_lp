@@ -7,9 +7,40 @@
 }
 
 .first-screen {
-  height: 100vh;
+  max-height: 980px;
+  height: 100%;
   padding: 50px 150px 0px 150px;
   background-image: linear-gradient(#1daa7d, #005f55);
+}
+
+.second-screen {
+  max-height: 980px;
+  height: 100%;
+}
+
+.third-screen {
+  max-height: 980px;
+  height: 100%;
+}
+
+.fourth-screen {
+  max-height: 980px;
+  height: 100%;
+}
+
+.fifth-screen {
+  max-height: 980px;
+  height: 100%;
+}
+
+.sixth-screen {
+  max-height: 980px;
+  height: 100%;
+}
+
+.seventh-screen {
+  max-height: 980px;
+  height: 100%;
 }
 
 .logo-unimed {
@@ -49,10 +80,6 @@
   width: 829px;
 }
 
-.second-screen {
-  height: 100vh;
-}
-
 .top-text {
   color: #005f54;
   font-size: 30px;
@@ -68,12 +95,17 @@
 
 .lower-text {
   font-size: 30px !important;
+  margin-left: 164px;
 }
 
 .left-green-bar {
   background: url("../../assets/green-left-bar.png");
   background-repeat: no-repeat;
   background-position: center;
+  height: 904px;
+  width: 30px;
+  position: relative;
+  top: -100px;
 }
 
 .left-green-circles {
@@ -82,6 +114,27 @@
   background-position: center;
   height: 600px;
   width: 428px;
+  position: absolute;
+}
+
+.left-orange-bar {
+  background: url("../../assets/orange-left-bar.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1100px;
+  width: 30px;
+  position: relative;
+  top: -302px;
+}
+
+.left-orange-circles {
+  background: url("../../assets/orange-right-circles.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  width: 428px;
+  position: absolute;
+  top: 2150px;
 }
 
 .bar-1970 {
@@ -92,9 +145,135 @@
   width: 100px;
 }
 
+.bar-1980 {
+  background: url("../../assets/barra_rolagem_1980.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 212px;
+  width: 100px;
+}
+
+.bar-1990 {
+  background: url("../../assets/barra_rolagem_1990.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 212px;
+  width: 100px;
+}
+
+.bar-2000 {
+  background: url("../../assets/barra_rolagem_2000.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 212px;
+  width: 100px;
+}
+
+.bar-2010 {
+  background: url("../../assets/barra_rolagem_2010.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 212px;
+  width: 100px;
+}
+
+.bar-2020 {
+  background: url("../../assets/barra_rolagem_2020.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 212px;
+  width: 100px;
+}
+
+.left-purple-bar {
+  background: url("../../assets/purple-left-bar.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1140px;
+  width: 30px;
+  position: relative;
+  top: -206px;
+}
+
+.left-purple-circles {
+  background: url("../../assets/purple-right-circles.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  width: 438px;
+  position: absolute;
+  /*top: 3150px;
+  left: -28px;*/
+}
+
+.left-light-green-bar {
+  background: url("../../assets/light-green-left-bar.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1062px;
+  width: 30px;
+  position: relative;
+  top: -303px;
+  left: 1px;
+}
+
+.left-light-green-circles {
+  background: url("../../assets/light-green-circles.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  width: 438px;
+  position: absolute;
+  margin-left: -10px;
+  margin-top: 50px;
+}
+
+.left-pink-bar {
+  background: url("../../assets/pink-left-bar.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1062px;
+  width: 30px;
+  position: relative;
+  top: -278px;
+  left: 1px;
+}
+
+.left-pink-circles {
+  background: url("../../assets/pink-right-circles.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 654px;
+  width: 456px;
+  position: absolute;
+  margin-top: 50px;
+}
+
+.left-ultra-light-green-bar {
+  background: url("../../assets/ultra-light-green-left-bar.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 1062px;
+  width: 30px;
+  position: relative;
+  top: -252px;
+  left: 1px;
+}
+
+.left-ultra-light-green-circles {
+  background: url("../../assets/ultra-light-green-circles.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 654px;
+  width: 456px;
+  position: absolute;
+  margin-top: 50px;
+  margin-left: -12px;
+}
+
 .mid-text {
   width: 100%;
-  margin-left: 200px;
+  margin-left: 630px;
   margin-right: 200px;
 }
 
@@ -108,6 +287,13 @@ button {
   background: #005f54;
   color: white;
   font-weight: 700;
+  position: relative;
+}
+
+.button-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .icone {
@@ -116,6 +302,4 @@ button {
   background-position: center;
   height: 24px;
   width: 25px;
-  position: absolute;
-  left: 750px;
 }
