@@ -8,11 +8,12 @@
 
 .first-screen {
   height: 100vh;
+  padding: 50px 150px 0px 150px;
   background-image: linear-gradient(#1daa7d, #005f55);
 }
 
 .logo-unimed {
-  background-image: url("../../assets/logo_unimed.png");
+  background: url("../../assets/logo_unimed.png");
   background-repeat: no-repeat;
   height: 80px;
   width: 255px;
@@ -21,7 +22,7 @@
 .left-text {
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
-  font-size: 45px;
+  font-size: 40px;
   color: #fff;
   line-height: 110%;
   width: 324px;
@@ -31,15 +32,90 @@
 .left-text-bottom {
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 15px;
   color: #fff;
   line-height: 140%;
   width: 286px;
   height: fit-content;
+  margin-top: 10px;
 }
 
 .first-screen-image {
-  background-image: url("../../assets/first-screen-image.png");
+  background: url("../../assets/first-screen-image.png");
   background-repeat: no-repeat;
+  background-position: center;
+  margin-left: 62px;
+  height: 739px;
+  width: 829px;
+}
+
+.second-screen {
+  height: 100vh;
+}
+
+.top-text {
+  color: #005f54;
+  font-size: 30px;
+  font-weight: 700;
+  width: fit-content;
+  margin-left: 100px;
+}
+
+.top-text span {
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.lower-text {
+  font-size: 30px !important;
+}
+
+.left-green-bar {
+  background: url("../../assets/green-left-bar.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.left-green-circles {
+  background: url("../../assets/green-right-circles.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 600px;
+  width: 428px;
+}
+
+.bar-1970 {
+  background: url("../../assets/barra_rolagem_1970.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 212px;
+  width: 100px;
+}
+
+.mid-text {
+  width: 100%;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+button {
+  width: 100%;
+  max-height: 50px;
+  max-width: 264px;
   height: 100%;
+  border: solid 1px;
+  border-radius: 24px;
+  background: #005f54;
+  color: white;
+  font-weight: 700;
+}
+
+.icone {
+  background: url("../../assets/icone.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 24px;
+  width: 25px;
+  position: absolute;
+  left: 750px;
 }
