@@ -1,8 +1,70 @@
-import React, { Fragment } from "react";
-import ReactDOM from "react-dom";
+import React, { useState } from "react";
+import Modal from "@material-ui/core/Modal";
+import "@brainhubeu/react-carousel/lib/style.css";
 import "./styles.css";
+import Modal1970 from "../../components/modal1970";
+import Modal1980 from "../../components/modal1980";
+import Modal1990 from "../../components/modal1990";
+import Modal2000 from "../../components/modal2000";
+import Modal2010 from "../../components/modal2010";
+import Modal2020 from "../../components/modal2020";
 
 function Home() {
+  const [open1970, setOpen1970] = useState(false);
+  const [open1980, setOpen1980] = useState(false);
+  const [open1990, setOpen1990] = useState(false);
+  const [open2000, setOpen2000] = useState(false);
+  const [open2010, setOpen2010] = useState(false);
+  const [open2020, setOpen2020] = useState(false);
+
+  const handleOpen1970 = () => {
+    setOpen1970(true);
+  };
+
+  const handleClose1970 = () => {
+    setOpen1970(false);
+  };
+
+  const handleOpen1980 = () => {
+    setOpen1980(true);
+  };
+
+  const handleClose1980 = () => {
+    setOpen1980(false);
+  };
+
+  const handleOpen1990 = () => {
+    setOpen1990(true);
+  };
+
+  const handleClose1990 = () => {
+    setOpen1990(false);
+  };
+
+  const handleOpen2000 = () => {
+    setOpen2000(true);
+  };
+
+  const handleClose2000 = () => {
+    setOpen2000(false);
+  };
+
+  const handleOpen2010 = () => {
+    setOpen2010(true);
+  };
+
+  const handleClose2010 = () => {
+    setOpen2010(false);
+  };
+
+  const handleOpen2020 = () => {
+    setOpen2020(true);
+  };
+
+  const handleClose2020 = () => {
+    setOpen2020(false);
+  };
+
   return (
     <>
       <div className="first-screen">
@@ -60,12 +122,20 @@ function Home() {
                 e passamos a adotar oficialmente o nome de Unimed-BH.
                 <br />
                 <br />
-                <button>
+                <button class="btn" onClick={handleOpen1970}>
                   <div className="button-text">
                     <span className="icone"></span>
                     <span>Clique e veja mais</span>
                   </div>
                 </button>
+                <Modal
+                  open={open1970}
+                  onClose={handleClose1970}
+                  aria-labelledby="simple-modal-title"
+                  aria-describedby="simple-modal-description"
+                >
+                  <Modal1970 />
+                </Modal>
               </div>
               <div
                 className="col-3 bar-1970"
@@ -99,12 +169,24 @@ function Home() {
                 fazer ajustes e estruturar novos processos.
                 <br />
                 <br />
-                <button style={{ background: "#F69653" }}>
+                <button
+                  class="btn"
+                  onClick={handleOpen1980}
+                  style={{ background: "#F69653" }}
+                >
                   <div className="button-text">
                     <span className="icone"></span>
                     <span>Clique e veja mais</span>
                   </div>
                 </button>
+                <Modal
+                  open={open1980}
+                  onClose={handleClose1980}
+                  aria-labelledby="simple-modal-title"
+                  aria-describedby="simple-modal-description"
+                >
+                  <Modal1980 />
+                </Modal>
               </div>
               <div
                 className="col-3 bar-1980"
@@ -143,12 +225,24 @@ function Home() {
                 primeiro processo eleitoral para escolha da diretoria.
                 <br />
                 <br />
-                <button style={{ background: "#62457F" }}>
+                <button
+                  class="btn"
+                  onClick={handleOpen1990}
+                  style={{ background: "#62457F" }}
+                >
                   <div className="button-text">
                     <span className="icone"></span>
                     <span>Clique e veja mais</span>
                   </div>
                 </button>
+                <Modal
+                  open={open1990}
+                  onClose={handleClose1990}
+                  aria-labelledby="simple-modal-title"
+                  aria-describedby="simple-modal-description"
+                >
+                  <Modal1990 />
+                </Modal>
               </div>
               <div
                 className="col-3 bar-1990"
@@ -196,12 +290,24 @@ function Home() {
                 Unimed-BH.
                 <br />
                 <br />
-                <button style={{ background: "#1DAA7D" }}>
+                <button
+                  class="btn"
+                  onClick={handleOpen2000}
+                  style={{ background: "#1DAA7D" }}
+                >
                   <div className="button-text">
                     <span className="icone"></span>
                     <span>Clique e veja mais</span>
                   </div>
                 </button>
+                <Modal
+                  open={open2000}
+                  onClose={handleClose2000}
+                  aria-labelledby="simple-modal-title"
+                  aria-describedby="simple-modal-description"
+                >
+                  <Modal2000 />
+                </Modal>
               </div>
               <div
                 className="col-3 bar-2000"
@@ -244,12 +350,24 @@ function Home() {
                 o aumento da transparência e da participação dos médicos.
                 <br />
                 <br />
-                <button style={{ background: "#B35FA5" }}>
+                <button
+                  class="btn"
+                  onClick={handleOpen2010}
+                  style={{ background: "#B35FA5" }}
+                >
                   <div className="button-text">
                     <span className="icone"></span>
                     <span>Clique e veja mais</span>
                   </div>
                 </button>
+                <Modal
+                  open={open2010}
+                  onClose={handleClose2010}
+                  aria-labelledby="simple-modal-title"
+                  aria-describedby="simple-modal-description"
+                >
+                  <Modal2010 />
+                </Modal>
               </div>
               <div
                 className="col-3 bar-2010"
@@ -291,12 +409,24 @@ function Home() {
                 Em 2021, a Cooperativa celebra seus 50 anos de fundação.
                 <br />
                 <br />
-                <button style={{ background: "#C2DB79" }}>
+                <button
+                  class="btn"
+                  onClick={handleOpen2020}
+                  style={{ background: "#C2DB79" }}
+                >
                   <div className="button-text">
                     <span className="icone"></span>
                     <span>Clique e veja mais</span>
                   </div>
                 </button>
+                <Modal
+                  open={open2020}
+                  onClose={handleClose2020}
+                  aria-labelledby="simple-modal-title"
+                  aria-describedby="simple-modal-description"
+                >
+                  <Modal2020 />
+                </Modal>
               </div>
               <div
                 className="col-3 bar-2020"
