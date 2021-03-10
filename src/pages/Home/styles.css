@@ -681,8 +681,8 @@
     background: url("../../assets/2000-circle.png") !important;
     background-repeat: no-repeat;
     background-position: center;
-    height: 316px;
-    width: 394px;
+    height: 240px;
+    width: 420px;
     margin-left: 0px;
     position: absolute;
   }
@@ -788,8 +788,8 @@
 
   .anos2000 {
     width: 294px !important;
-    margin-top: 375px !important;
-    font-size: 12px !important;
+    margin-top: 346px !important;
+    font-size: 13px !important;
   }
 
   .anos2010 {
@@ -810,6 +810,13 @@
     margin-right: 10px;
   }
 }
+
+@media only screen and (max-width: 422px) {
+  .anos2000{
+    font-size: 12px !important;
+  }
+}
+
 
 /*@media only screen and (max-width: 483px) {
   .anos2000 {
