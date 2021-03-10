@@ -7,8 +7,8 @@
 }
 
 .first-screen {
-  max-height: 980px;
-  height: 100%;
+  /*max-height: 980px;
+  height: 100%;*/
   padding: 50px 280px 0px 280px;
   background-image: linear-gradient(#1daa7d, #005f55);
 }
@@ -76,7 +76,7 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-left: 62px;
-  height: 739px;
+  height: 760px;
   width: 829px;
 }
 
@@ -272,9 +272,9 @@
 }
 
 .mid-text {
-  width: 100%;
-  margin-left: 630px;
-  margin-right: 200px;
+  width: 360px;
+  margin-left: 200px;
+  margin-right: 180px;
 }
 
 .btn {
@@ -592,4 +592,182 @@
 
 .BrainhubCarousel__dots .BrainhubCarousel__thumbnail:hover {
   opacity: 0.5;
+}
+
+@media only screen and (max-width: 1400px) {
+  .mid-text {
+    margin-right: 66px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .mid-text {
+    margin-right: 20px;
+    margin-left: 146px;
+  }
+}
+
+@media only screen and (max-width: 1358px) {
+  .first-screen-image {
+    width: 792px;
+  }
+}
+
+@media only screen and (max-width: 1316px) {
+  .first-screen-image {
+    width: 760px;
+  }
+}
+
+@media only screen and (max-width: 1225px) {
+  .first-screen {
+    padding: 50px 220px 0px 150px;
+  }
+}
+
+@media only screen and (max-width: 1108px) {
+  .first-screen-image {
+    width: 770px;
+  }
+
+  .first-screen {
+    padding: 50px 240px 0px 60px;
+  }
+}
+
+@media only screen and (max-width: 1030px) {
+  .first-screen-image {
+    width: 756px;
+  }
+
+  .first-screen {
+    padding: 50px 250px 0px 25px;
+  }
+}
+
+@media only screen and (max-width: 993px) {
+  .bar-1970, .bar-1980, .bar-1990, .bar-2000, .bar-2010, .bar-2020 {
+    display: none;
+  }
+
+  .left-green-circles {
+    background: url("../../assets/1970-circle.png") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 247px;
+    width: 334px;
+    position: absolute;
+  }
+
+  .left-orange-circles {
+    background: url("../../assets/1980-circle.png") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 278px;
+    width: 362px;
+    position: absolute;
+  }
+
+  .left-purple-circles {
+    background: url("../../assets/1990-circle.png") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 224px;
+    width: 326px;
+    position: absolute;
+  }
+
+  .left-light-green-circles {
+    background: url("../../assets/2000-circle.png") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 316px;
+    width: 394px;
+    margin-left: 0px;
+    position: absolute;
+  }
+
+  .left-pink-circles {
+    background: url("../../assets/2010-circle.png") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 247px;
+    width: 333px;
+    position: absolute;
+  }
+
+  .left-ultra-light-green-circles {
+    background: url("../../assets/2020-circle.png") !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 298px;
+    width: 390px;
+    position: absolute;
+  }
+
+  .mid-text {
+    margin-top: 280px !important;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .button-text {
+    font-size: 14px;
+  }
+
+  .mid-text {
+    margin-top: -584px !important;
+    margin-left: 100px;
+  }
+
+  .anos1990 {
+    margin-top: -800px !important;
+  }
+
+  .anos2000 {
+    margin-top: -679px !important;
+    font-size: 13px !important;
+  }
+
+  .anos2010 {
+    margin-top: -740px !important;
+  }
+
+  .anos2020 {
+    margin-top: 84px !important;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .first-screen-image {
+    display: none;
+  }
+
+  .bar-1970, .bar-1980, .bar-1990, .bar-2000, .bar-2010, .bar-2020 {
+    display: none;
+  }
+
+  .first-screen {
+    height: 840px;
+  }
+
+  .unimed {
+    flex-direction: row !important;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .first-screen {
+    padding: 50px 20px 0px 20px;
+  }
+
+  .mid-text {
+    width: 220px;
+    font-size: 14px;
+    margin-top: 300px !important;
+    margin-left: -70px;
+    margin-right: 10px;
+  }
 }

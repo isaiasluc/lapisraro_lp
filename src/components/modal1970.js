@@ -26,7 +26,12 @@ const Modal1970 = () => {
         <row>
           <div className="d-flex">
             <div className="col-9 photo-card">
-              <Carousel value={value} onChange={onChange} centered>
+              <Carousel
+                value={value}
+                onChange={onChange}
+                centered
+                animationSpeed={700}
+              >
                 <img src={imageOne} alt="teste" />
                 <img src={imageTwo} alt="teste" />
                 <img src={imageThree} alt="teste" />
