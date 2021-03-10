@@ -655,7 +655,23 @@
   }
 
   .anos1980 {
-    margin-top: 330px !important;
+    margin-top: 470px !important;
+  }
+
+  .anos1990 {
+    margin-top: 280px !important;
+  }
+
+  .anos2000 {
+    margin-top: 300px !important;
+  }
+
+  .anos2010 {
+    margin-top: 310px !important;
+  }
+
+  .anos2020 {
+    margin-top: 380px !important;
   }
 
   .left-green-circles {
@@ -720,26 +736,8 @@
   }
 }
 
-@media only screen and (max-width: 960px) {
-  .anos1980 {
-    margin-top: 480px !important;
-  }
-
-  .anos1990 {
-    margin-top: 280px !important;
-  }
-
-  .anos2000 {
-    margin-top: 300px !important;
-  }
-
-  .anos2010 {
-    margin-top: 310px !important;
-  }
-
-  .anos2020 {
-    margin-top: 380px !important;
-  }
+@media only screen and (max-width: 993px) {
+  
 }
 
 @media only screen and (max-width: 767px) {
