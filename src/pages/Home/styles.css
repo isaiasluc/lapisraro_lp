@@ -280,7 +280,7 @@
 .btn {
   width: 100%;
   max-height: 50px;
-  max-width: 264px;
+  max-width: 230px;
   height: 100%;
   border: solid 1px;
   border-radius: 24px;
@@ -766,7 +766,7 @@
   .lower-text {
     margin-left: 0;
   }
-  
+
   .first-screen {
     padding: 50px 20px 0px 20px;
   }
@@ -787,9 +787,9 @@
   }
 
   .anos2000 {
-    width: 252px !important;
+    width: 294px !important;
     margin-top: 375px !important;
-    font-size: 13px !important;
+    font-size: 12px !important;
   }
 
   .anos2010 {
@@ -811,8 +811,8 @@
   }
 }
 
-@media only screen and (max-width: 483px) {
+/*@media only screen and (max-width: 483px) {
   .anos2000 {
-    font-size: 11px !important;
+    font-size: 12px !important;
   }
-}
+}*/
