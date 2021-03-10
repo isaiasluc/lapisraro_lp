@@ -650,6 +650,14 @@
     display: none;
   }
 
+  .anos1970 {
+    margin-top: 280px !important;
+  }
+
+  .anos1980 {
+    margin-top: 330px !important;
+  }
+
   .left-green-circles {
     background: url("../../assets/1970-circle.png") !important;
     background-repeat: no-repeat;
@@ -706,9 +714,31 @@
   }
 
   .mid-text {
-    margin-top: 280px !important;
+    margin-top: 280px;
     margin-left: 0px;
     margin-right: 0px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .anos1980 {
+    margin-top: 480px !important;
+  }
+
+  .anos1990 {
+    margin-top: 280px !important;
+  }
+
+  .anos2000 {
+    margin-top: 300px !important;
+  }
+
+  .anos2010 {
+    margin-top: 310px !important;
+  }
+
+  .anos2020 {
+    margin-top: 380px !important;
   }
 }
 
@@ -720,10 +750,6 @@
   .mid-text {
     margin-top: -584px !important;
     margin-left: 100px;
-  }
-
-  .anos1980 {
-    margin-top: -480px !important;
   }
 
   .anos1990 {
@@ -778,7 +804,7 @@
 
   .anos1980 {
     width: 252px !important;
-    margin-top: 450px !important;
+    margin-top: 490px !important;
   }
 
   .anos1990 {
