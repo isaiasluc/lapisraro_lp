@@ -722,6 +722,10 @@
     margin-left: 100px;
   }
 
+  .anos1980 {
+    margin-top: -480px !important;
+  }
+
   .anos1990 {
     margin-top: -800px !important;
   }
@@ -759,15 +763,56 @@
 }
 
 @media only screen and (max-width: 576px) {
+  .lower-text {
+    margin-left: 0;
+  }
+  
   .first-screen {
     padding: 50px 20px 0px 20px;
+  }
+
+  .anos1970 {
+    width: 252px !important;
+    margin-top: 280px !important;
+  }
+
+  .anos1980 {
+    width: 252px !important;
+    margin-top: 450px !important;
+  }
+
+  .anos1990 {
+    width: 252px !important;
+    margin-top: 300px !important;
+  }
+
+  .anos2000 {
+    width: 252px !important;
+    margin-top: 375px !important;
+    font-size: 13px !important;
+  }
+
+  .anos2010 {
+    width: 252px !important;
+    margin-top: 308px !important;
+  }
+
+  .anos2020 {
+    width: 252px !important;
+    margin-top: 372px !important;
   }
 
   .mid-text {
     width: 220px;
     font-size: 14px;
-    margin-top: 300px !important;
+    margin-top: 300px;
     margin-left: -70px;
     margin-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 483px) {
+  .anos2000 {
+    font-size: 11px !important;
   }
 }

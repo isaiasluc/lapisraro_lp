@@ -111,7 +111,7 @@ function Home() {
               </div>
             </div>
             <div
-              className="col-4 col-sm-12 mid-text"
+              className="col-4 col-sm-12 mid-text anos1970"
               style={{ fontSize: "14px", marginTop: "200px" }}
             >
               Em abril de 1971, um grupo de 152 médicos reunidos em assembleia
@@ -162,7 +162,7 @@ function Home() {
               </div>
             </div>
             <div
-              className="col-4 col-sm-12 mid-text"
+              className="col-4 col-sm-12 mid-text anos1980"
               style={{ fontSize: "14px", marginTop: "200px" }}
             >
               O início dos anos 1980 veio marcado por um contexto nacional de
@@ -269,7 +269,7 @@ function Home() {
               </div>
             </div>
             <div
-              className="col-4 mid-text anos2000"
+              className="col-4 col-sm-12 mid-text anos2000"
               style={{ fontSize: "14px", marginTop: "200px" }}
             >
               A Unimed-BH passou por um reposicionamento de marca, apoiado no
