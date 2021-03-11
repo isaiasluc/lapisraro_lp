@@ -1,11 +1,11 @@
 import React, { useState } from "react";
 import Carousel, { Dots } from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
-import imageOne from "../assets/2010/1.JPG";
-import imageTwo from "../assets/2010/2.jpg";
-import imageThree from "../assets/2010/3.jpg";
-import imageFour from "../assets/2010/4.jpg";
-import "../pages/Home/styles.css";
+import imageOne from "../../assets/2010/1.JPG";
+import imageTwo from "../../assets/2010/2.jpg";
+import imageThree from "../../assets/2010/3.jpg";
+import imageFour from "../../assets/2010/4.jpg";
+import "../../pages/Home/styles.css";
 
 const Modal2010 = () => {
   const [value, setValue] = useState(0);

@@ -6,6 +6,11 @@
   border: 0;
 }
 
+a:hover {
+  background-color: grey;
+    transition: 0.7s;
+}
+
 .first-screen {
   /*max-height: 980px;
   height: 100%;*/
@@ -138,7 +143,7 @@
 }
 
 .bar-1970 {
-  background: url("../../assets/barra_rolagem_1970.png");
+  background: url("../../assets/topics1970.png");
   background-repeat: no-repeat;
   background-position: center;
   height: 212px;
@@ -146,7 +151,7 @@
 }
 
 .bar-1980 {
-  background: url("../../assets/barra_rolagem_1980.png");
+  background: url("../../assets/topics1980.png");
   background-repeat: no-repeat;
   background-position: center;
   height: 212px;
@@ -154,7 +159,7 @@
 }
 
 .bar-1990 {
-  background: url("../../assets/barra_rolagem_1990.png");
+  background: url("../../assets/topics1990.png");
   background-repeat: no-repeat;
   background-position: center;
   height: 212px;
@@ -162,7 +167,7 @@
 }
 
 .bar-2000 {
-  background: url("../../assets/barra_rolagem_2000.png");
+  background: url("../../assets/topics2000.png");
   background-repeat: no-repeat;
   background-position: center;
   height: 212px;
@@ -170,7 +175,7 @@
 }
 
 .bar-2010 {
-  background: url("../../assets/barra_rolagem_2010.png");
+  background: url("../../assets/topics2010.png");
   background-repeat: no-repeat;
   background-position: center;
   height: 212px;
@@ -178,7 +183,7 @@
 }
 
 .bar-2020 {
-  background: url("../../assets/barra_rolagem_2020.png");
+  background: url("../../assets/topics2020.png");
   background-repeat: no-repeat;
   background-position: center;
   height: 212px;
@@ -594,6 +599,15 @@
   opacity: 0.5;
 }
 
+.dot {
+  width: 11px;
+  height: 11px;
+  background-color: #57585b;
+  padding-left: 0px;
+  padding-bottom: 0px;
+  border-radius: 50%;
+}
+
 @media only screen and (max-width: 1400px) {
   .mid-text {
     margin-right: 66px;
@@ -646,7 +660,12 @@
 }
 
 @media only screen and (max-width: 993px) {
-  .bar-1970, .bar-1980, .bar-1990, .bar-2000, .bar-2010, .bar-2020 {
+  .bar-1970,
+  .bar-1980,
+  .bar-1990,
+  .bar-2000,
+  .bar-2010,
+  .bar-2020 {
     display: none;
   }
 
@@ -737,7 +756,6 @@
 }
 
 @media only screen and (max-width: 993px) {
-  
 }
 
 @media only screen and (max-width: 767px) {
@@ -773,8 +791,13 @@
     display: none;
   }
 
-  .bar-1970, .bar-1980, .bar-1990, .bar-2000, .bar-2010, .bar-2020 {
-    display: none;
+  .bar-1970,
+  .bar-1980,
+  .bar-1990,
+  .bar-2000,
+  .bar-2010,
+  .bar-2020 {
+    display: none !important;
   }
 
   .first-screen {
@@ -836,11 +859,10 @@
 }
 
 @media only screen and (max-width: 422px) {
-  .anos2000{
+  .anos2000 {
     font-size: 12px !important;
   }
 }
-
 
 /*@media only screen and (max-width: 483px) {
   .anos2000 {

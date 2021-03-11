@@ -2,12 +2,18 @@ import React, { useState } from "react";
 import Modal from "@material-ui/core/Modal";
 import "@brainhubeu/react-carousel/lib/style.css";
 import "./styles.css";
-import Modal1970 from "../../components/modal1970";
-import Modal1980 from "../../components/modal1980";
-import Modal1990 from "../../components/modal1990";
-import Modal2000 from "../../components/modal2000";
-import Modal2010 from "../../components/modal2010";
-import Modal2020 from "../../components/modal2020";
+import Modal1970 from "../../components/Modal1970/modal1970";
+import Modal1980 from "../../components/Modal1980/modal1980";
+import Modal1990 from "../../components/Modal1990/modal1990";
+import Modal2000 from "../../components/Modal2000/modal2000";
+import Modal2010 from "../../components/Modal2010/modal2010";
+import Modal2020 from "../../components/Modal2020/modal2020";
+import DotList1970 from "../../components/DotList1970";
+import DotList1980 from "../../components/DotList1980";
+import DotList1990 from "../../components/DotList1990";
+import DotList2000 from "../../components/DotList2000";
+import DotList2010 from "../../components/DotList2010";
+import DotList2020 from "../../components/DotList2020";
 
 function Home() {
   const [open1970, setOpen1970] = useState(false);
@@ -67,7 +73,7 @@ function Home() {
 
   return (
     <>
-      <div className="first-screen">
+      <div id="first-screen" className="first-screen">
         <div className="row">
           <div className="col d-flex flex-row-reverse unimed">
             <div className="logo-unimed" />
@@ -95,7 +101,7 @@ function Home() {
         </div>
       </div>
       <div className="container">
-        <div className="second-screen">
+        <div id="second-screen" className="second-screen">
           <div className="row">
             <div className="col-12 top-text">
               Década de <span>1970</span>
@@ -138,13 +144,19 @@ function Home() {
                 <Modal1970 />
               </Modal>
             </div>
-            <div
+            {/*<div
               className="col-4 bar-1970"
               style={{ marginTop: "200px" }}
-            ></div>
+            ></div>*/}
+            <div
+              className="col-4 d-flex flex-row bar-1970"
+              style={{ marginTop: "200px" }}
+            >
+              <DotList1970 backgroundColor="#005F54" />
+            </div>
           </div>
         </div>
-        <div className="third-screen">
+        <div id="third-screen" className="third-screen">
           <div className="row">
             <div className="col-12 top-text" style={{ color: "#F69653" }}>
               Década de <span>1980</span>
@@ -189,13 +201,19 @@ function Home() {
                 <Modal1980 />
               </Modal>
             </div>
-            <div
+            {/*<div
               className="col-4 bar-1980"
               style={{ marginTop: "200px" }}
-            ></div>
+            ></div>*/}
+            <div
+              className="col-4 d-flex flex-row bar-1980"
+              style={{ marginTop: "200px" }}
+            >
+              <DotList1980 backgroundColor="#F69653" />
+            </div>
           </div>
         </div>
-        <div className="fourth-screen">
+        <div id="fourth-screen" className="fourth-screen">
           <div className="row">
             <div className="col-12 top-text" style={{ color: "#62457F" }}>
               Década de <span>1990</span>
@@ -245,13 +263,19 @@ function Home() {
                 <Modal1990 />
               </Modal>
             </div>
-            <div
+            {/*<div
               className="col-4 bar-1990"
               style={{ marginTop: "200px" }}
-            ></div>
+            ></div>*/}
+            <div
+              className="col-4 d-flex flex-row bar-1990"
+              style={{ marginTop: "200px" }}
+            >
+              <DotList1990 backgroundColor="#62457F" />
+            </div>
           </div>
         </div>
-        <div className="fifth-screen">
+        <div id="fifth-screen" className="fifth-screen">
           <div className="row">
             <div className="col-12 top-text" style={{ color: "#1DAA7D" }}>
               Década de <span>2000</span>
@@ -310,13 +334,19 @@ function Home() {
                 <Modal2000 />
               </Modal>
             </div>
-            <div
+            {/*<div
               className="col-4 bar-2000"
               style={{ marginTop: "200px" }}
-            ></div>
+            ></div>*/}
+            <div
+              className="col-4 d-flex flex-row bar-2000"
+              style={{ marginTop: "200px" }}
+            >
+              <DotList2000 backgroundColor="#1DAA7D" />
+            </div>
           </div>
         </div>
-        <div className="sixth-screen">
+        <div id="sixth-screen" className="sixth-screen">
           <div className="row">
             <div className="col-12 top-text" style={{ color: "#B35FA5" }}>
               Década de <span>2010</span>
@@ -370,13 +400,19 @@ function Home() {
                 <Modal2010 />
               </Modal>
             </div>
-            <div
+            {/*<div
               className="col-4 bar-2010"
               style={{ marginTop: "200px" }}
-            ></div>
+            ></div>*/}
+            <div
+              className="col-4 d-flex flex-row bar-2010"
+              style={{ marginTop: "200px" }}
+            >
+              <DotList2010 backgroundColor="#B35FA5" />
+            </div>
           </div>
         </div>
-        <div className="seventh-screen">
+        <div id="seventh-screen" className="seventh-screen">
           <div className="row">
             <div className="col-12 top-text" style={{ color: "#C2DB79" }}>
               Década de <span>2020</span>
@@ -387,7 +423,10 @@ function Home() {
             </div>
           </div>
           <div className="row">
-            <div className="col-4 col-md-4 col-lg-4 col-xl-4 col-sm-12 d-flex" style={{ height: "300px" }}>
+            <div
+              className="col-4 col-md-4 col-lg-4 col-xl-4 col-sm-12 d-flex"
+              style={{ height: "300px" }}
+            >
               <div className="left-bar d-flex">
                 <div className="left-ultra-light-green-bar"></div>
                 <div className="left-ultra-light-green-circles"></div>
@@ -429,10 +468,16 @@ function Home() {
                 <Modal2020 />
               </Modal>
             </div>
-            <div
+            {/*<div
               className="col-4 bar-2020"
               style={{ marginTop: "200px" }}
-            ></div>
+            ></div>*/}
+            <div
+              className="col-4 d-flex flex-row bar-2020"
+              style={{ marginTop: "200px" }}
+            >
+              <DotList2020 backgroundColor="#C2DB79" />
+            </div>
           </div>
         </div>
       </div>

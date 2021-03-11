@@ -1,13 +1,13 @@
 import React, { useState } from "react";
 import Carousel, { Dots } from "@brainhubeu/react-carousel";
 import "@brainhubeu/react-carousel/lib/style.css";
-import imageOne from "../assets/2000/1.jpg";
-import imageTwo from "../assets/2000/2.jpg";
-import imageThree from "../assets/2000/3.jpg";
-import imageFour from "../assets/2000/4.jpg";
-import "../pages/Home/styles.css";
+import imageOne from "../../assets/2020/1.jpeg";
+import imageTwo from "../../assets/2020/2.jpg";
+import imageThree from "../../assets/2020/3.jpg";
+import imageFour from "../../assets/2020/4.jpg";
+import "../../pages/Home/styles.css";
 
-const Modal2000 = () => {
+const Modal2020 = () => {
   const [value, setValue] = useState(0);
 
   const onChange = (value) => {
@@ -15,13 +15,13 @@ const Modal2000 = () => {
   };
 
   return (
-    <div className="modal" style={{ backgroundColor: "#1DAA7D" }}>
+    <div className="modal" style={{ backgroundColor: "#C2DB79" }}>
       <div style={{ padding: "50px" }}>
         <h2
           id="simple-modal-title"
           style={{ color: "white", marginBottom: "20px" }}
         >
-          Década de 2000
+          Década de 2020
         </h2>
         <row>
           <div className="d-flex">
@@ -41,25 +41,25 @@ const Modal2000 = () => {
                   thumbnails={[
                     <img
                       key={1}
-                      className="photo-1-2000"
+                      className="photo-1-2020"
                       src={imageOne}
                       alt="teste"
                     />,
                     <img
                       key={2}
-                      className="photo-2-2000"
+                      className="photo-2-2020"
                       src={imageTwo}
                       alt="teste"
                     />,
                     <img
                       key={3}
-                      className="photo-3-2000"
+                      className="photo-3-2020"
                       src={imageThree}
                       alt="teste"
                     />,
                     <img
                       key={4}
-                      className="photo-4-2000"
+                      className="photo-4-2020"
                       src={imageFour}
                       alt="teste"
                     />,
@@ -80,4 +80,4 @@ const Modal2000 = () => {
   );
 };
 
-export default Modal2000;
+export default Modal2020;
