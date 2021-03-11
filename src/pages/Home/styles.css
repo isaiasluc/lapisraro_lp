@@ -310,20 +310,21 @@ a:hover {
 }
 
 .modal {
-  max-width: 1100px;
-  max-height: 800px;
+  max-width: 1020px;
+  max-height: 650px;
   background-color: #005f54;
   border: 2px solid transparent;
   border-radius: 15px;
   display: block;
-  margin-left: 300px;
-  margin-top: 50px;
+  margin-left: 80px;
+  margin-top: 2px;
 }
 
 .photo-card {
   width: 756px;
   border: solid 8px white;
   border-radius: 15px;
+  height: 470px;
 }
 
 .photo-columns {
@@ -582,10 +583,14 @@ a:hover {
   border: solid 3px white;
 }
 
+.BrainhubCarousel__container {
+  height: 455px;
+}
+
 .BrainhubCarousel__dots {
   flex-direction: column;
   margin-left: 20px;
-  height: 570px;
+  height: 470px;
   justify-content: space-evenly;
 }
 

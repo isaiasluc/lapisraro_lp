@@ -16,7 +16,7 @@ const Modal1980 = () => {
 
   return (
     <div className="modal" style={{ backgroundColor: "#F69653" }}>
-      <div style={{ padding: "50px" }}>
+      <div style={{ padding: "10px 30px" }}>
         <h2
           id="simple-modal-title"
           style={{ color: "white", marginBottom: "20px" }}
