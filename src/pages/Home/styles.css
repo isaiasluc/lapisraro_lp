@@ -316,8 +316,8 @@ a:hover {
   border: 2px solid transparent;
   border-radius: 15px;
   display: block;
-  left: 20%;
-  top: 10%;
+  margin-left: 300px;
+  margin-top: 50px;
 }
 
 .photo-card {
