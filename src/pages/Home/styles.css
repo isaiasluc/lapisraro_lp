@@ -12,13 +12,13 @@ a {
 
 a:hover {
   background-color: grey;
-    transition: 0.7s;
+  transition: 0.7s;
 }
 
 .first-screen {
   /*max-height: 980px;
   height: 100%;*/
-  padding: 50px 240px 0px 200px;
+  padding: 50px 190px 0px 60px;
   background-image: linear-gradient(#1daa7d, #005f55);
 }
 
@@ -81,13 +81,15 @@ a:hover {
 }
 
 .first-screen-image {
-  background: url("../../assets/first-screen-image.png");
+  background: url("../../assets/first-screen-road.png");
   background-repeat: no-repeat;
   background-position: center;
   margin-left: 62px;
-  height: 760px;
-  width: 829px;
+  height: 770px;
+  width: 915px;
 }
+
+
 
 .top-text {
   color: #005f54;
@@ -631,14 +633,23 @@ a:hover {
 }
 
 @media only screen and (max-width: 1358px) {
-  .first-screen-image {
+  /*.first-screen-image {
     width: 792px;
+  }*/
+  .circulo {
+    left: 525px;
   }
 }
 
 @media only screen and (max-width: 1316px) {
-  .first-screen-image {
+  /*.first-screen-image {
     width: 760px;
+  }*/
+}
+
+@media only screen and (min-width: 1225px) {
+  .left-text, .left-text-bottom {
+    margin-left: 70px;
   }
 }
 
@@ -646,12 +657,16 @@ a:hover {
   .first-screen {
     padding: 50px 220px 0px 150px;
   }
+
+  .first-screen-image {
+    margin-left: -25px;
+  }
 }
 
 @media only screen and (max-width: 1108px) {
-  .first-screen-image {
+  /*.first-screen-image {
     width: 770px;
-  }
+  }*/
 
   .first-screen {
     padding: 50px 240px 0px 60px;
@@ -659,9 +674,9 @@ a:hover {
 }
 
 @media only screen and (max-width: 1030px) {
-  .first-screen-image {
+  /*.first-screen-image {
     width: 756px;
-  }
+  }*/
 
   .first-screen {
     padding: 50px 250px 0px 25px;

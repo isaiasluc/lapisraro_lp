@@ -1,0 +1,68 @@
+.circulo1980 {
+  border: 4px solid #005f54;
+  height: 94px;
+  width: 94px;
+  border-radius: 50%;
+  background: url("../../assets/circle-cropped\ \(5\).png");
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  left: 235px;
+  top: -38px;
+  opacity: 0.8;
+}
+
+.circulo1980 a {
+  position: absolute;
+  /*background: red;*/
+  opacity: 0;
+  left: -7px;
+  top: -7px;
+  height: 94px;
+  width: 94px;
+  border-radius: 50%;
+}
+
+.circulo1980:hover {
+  border: 4px solid #F69653;
+  opacity: 1;
+}
+
+.circulo1980:hover + .vertical-bar-1980 .bottom-dot-1980 {
+  background-color: #F69653;
+  opacity: 1;
+}
+
+.circulo1980:hover + .vertical-bar-1980 {
+  background-color: #F69653;
+  opacity: 1;
+}
+
+@media screen and (max-height: 658px) {
+  /*.circulo1980 {
+    left: 171px;
+  }
+  .vertical-bar-1980 {
+    top: -38px;
+    left: 218px !important;
+  }*/
+}
+
+.vertical-bar-1980 {
+  height: 28px;
+  width: 2px;
+  background-color: #005f55;
+  position: relative;
+  top: -38px;
+  left: 280px;
+}
+
+.bottom-dot-1980 {
+  top: 26px;
+  left: -3px;
+  height: 8px;
+  width: 8px;
+  border-radius: 50%;
+  background-color: #005f55;
+  position: relative;
+}

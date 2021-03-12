@@ -1,0 +1,68 @@
+.circulo2020 {
+    border: 8px solid #005f54;
+    height: 266px;
+    width: 266px;
+    border-radius: 50%;
+    background: url("../../assets/circle-cropped\ \(1\).png");
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    left: 585px;
+    top: -444px;
+    opacity: 0.8;
+  }
+  
+  .circulo2020 a {
+    position: absolute;
+    /*background: red;*/
+    opacity: 0;
+    left: -7px;
+    top: -7px;
+    width: 266px;
+    height: 266px;
+    border-radius: 50%;
+  }
+  
+  .circulo2020:hover {
+    border: 8px solid #C2DB79;
+    opacity: 1;
+  }
+  
+  .circulo2020:hover + .vertical-bar .bottom-dot {
+    background-color: #C2DB79;
+    opacity: 1;
+  }
+
+  .circulo2020:hover + .vertical-bar {
+    background-color: #C2DB79;
+    opacity: 1;
+  }
+  
+  @media screen and (max-height: 658px) {
+    /*.circulo2020 {
+      left: 520px;
+    }
+    .vertical-bar {
+      top: 350px;
+      left: 650px !important;
+    }*/
+  }
+  
+  .vertical-bar {
+    height: 84px;
+    width: 6px;
+    background-color: #005f55;
+    position: relative;
+    top: -445px;
+    left: 716px;
+  }
+  
+  .bottom-dot {
+    top: 78px;
+    left: -3px;
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: #005f55;
+    position: relative;
+  }

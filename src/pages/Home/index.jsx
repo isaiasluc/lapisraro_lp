@@ -14,6 +14,12 @@ import DotList1990 from "../../components/DotList1990";
 import DotList2000 from "../../components/DotList2000";
 import DotList2010 from "../../components/DotList2010";
 import DotList2020 from "../../components/DotList2020";
+import Circle1970 from '../../components/Circle1970';
+import Circle1980 from '../../components/Circle1980';
+import Circle1990 from '../../components/Circle1990';
+import Circle2000 from '../../components/Circle2000';
+import Circle2010 from '../../components/Circle2010';
+import Circle2020 from '../../components/Circle2020';
 
 function Home() {
   const [open1970, setOpen1970] = useState(false);
@@ -96,7 +102,14 @@ function Home() {
             </div>
           </div>
           <div className="col-9">
-            <div className="first-screen-image" />
+            <div className="first-screen-image">
+              <Circle1970 />
+              <Circle1980 />
+              <Circle1990 />
+              <Circle2000 />
+              <Circle2010 />
+              <Circle2020 />
+            </div>
           </div>
         </div>
       </div>
