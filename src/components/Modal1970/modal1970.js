@@ -8,10 +8,14 @@ import imageFour from "../../assets/1970/4.jpg";
 import "../../pages/Home/styles.css";
 
 const Modal1970 = () => {
+  const legendas = ['Legenda 1', 'Legenda 2', 'Legenda 3', 'Legenda 4'];
+  
   const [value, setValue] = useState(0);
+  const [legenda, setLegenda] = useState(legendas[0]);
 
   const onChange = (value) => {
     setValue(value);
+    setLegenda(legendas[value]);
   };
 
   return (
@@ -75,10 +79,7 @@ const Modal1970 = () => {
             </div>
           </div>
           <div className="legenda">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat.
+            {legenda}
           </div>
         </row>
       </div>
