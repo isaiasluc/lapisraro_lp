@@ -16,7 +16,7 @@ const Modal1980 = () => {
 
   return (
     <div className="modal" style={{ backgroundColor: "#F69653" }}>
-      <div style={{ padding: "10px 30px" }}>
+      <div className="modal-padding" style={{ padding: "10px 30px" }}>
         <h2
           id="simple-modal-title"
           style={{ color: "white", marginBottom: "20px" }}
@@ -24,8 +24,8 @@ const Modal1980 = () => {
           Década de 1980
         </h2>
         <row>
-          <div className="d-flex">
-            <div className="col-9 photo-card">
+          <div className="top-modal d-flex">
+            <div className="col-12 photo-card">
               <Carousel value={value} onChange={onChange} centered>
                 <img src={imageOne} alt="teste" />
                 <img src={imageTwo} alt="teste" />
@@ -41,7 +41,7 @@ const Modal1980 = () => {
                   thumbnails={[
                     <img
                       key={1}
-                      className="photo-1-1980"
+                      className="photo-1-1980 img-fluid"
                       src={imageOne}
                       alt="teste"
                     />,

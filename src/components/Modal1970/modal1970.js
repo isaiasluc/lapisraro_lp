@@ -16,7 +16,7 @@ const Modal1970 = () => {
 
   return (
     <div className="modal">
-      <div style={{ padding: "10px 30px" }}>
+      <div className="modal-padding" style={{ padding: "10px 30px" }}>
         <h2
           id="simple-modal-title"
           style={{ color: "white", marginBottom: "20px" }}
@@ -24,7 +24,7 @@ const Modal1970 = () => {
           Década de 1970
         </h2>
         <row>
-          <div className="d-flex">
+          <div className="top-modal d-flex">
             <div className="col-12 photo-card">
               <Carousel
                 value={value}

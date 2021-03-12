@@ -16,7 +16,7 @@ const Modal2000 = () => {
 
   return (
     <div className="modal" style={{ backgroundColor: "#1DAA7D" }}>
-      <div style={{ padding: "10px 30px" }}>
+      <div className="modal-padding" style={{ padding: "10px 30px" }}>
         <h2
           id="simple-modal-title"
           style={{ color: "white", marginBottom: "20px" }}
@@ -24,8 +24,8 @@ const Modal2000 = () => {
           Década de 2000
         </h2>
         <row>
-          <div className="d-flex">
-            <div className="col-9 photo-card">
+          <div className="top-modal d-flex">
+            <div className="col-12 photo-card">
               <Carousel value={value} onChange={onChange} centered>
                 <img src={imageOne} alt="teste" />
                 <img src={imageTwo} alt="teste" />
